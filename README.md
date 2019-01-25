@@ -5,7 +5,7 @@ IOT
 
 Project Organization
 ------------
-
+    ├── IoT_Course_IBM.pdf <- PDF summary of course content using LaTeX
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
@@ -17,7 +17,7 @@ Project Organization
     │
     ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
-    ├── jnode            <- IBM cloud repository     
+    ├── jnode              <- IBM cloud repository     
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
