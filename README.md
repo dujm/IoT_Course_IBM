@@ -26,7 +26,7 @@ Project Organization
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
-    ├── reports            <- "IoT_Course_IBM.pd" (PDF summary of course content using LaTeX)
+    ├── reports            <- "IoT_Course_IBM.pdf" (PDF summary of course content using LaTeX)
     │   └── figures        <- Generated graphics and figures to be used in reporting
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
