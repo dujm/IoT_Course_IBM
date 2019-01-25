@@ -88,8 +88,7 @@ target/
 # Mypy cache
 .mypy_cache/
 
-
-Latex
+# Latex
 *.toc
 *.synctex.gz
 *.out
