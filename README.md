@@ -1,11 +1,10 @@
 IoT_Course_IBM
 ==============================
 
-IOT
+https://www.coursera.org/learn/developer-iot/
 
 Project Organization
 ------------
-    ├── IoT_Course_IBM.pdf <- PDF summary of course content using LaTeX
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
@@ -27,7 +26,7 @@ Project Organization
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+    ├── reports            <- "IoT_Course_IBM.pd" (PDF summary of course content using LaTeX)
     │   └── figures        <- Generated graphics and figures to be used in reporting
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
