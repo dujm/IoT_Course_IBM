@@ -94,5 +94,4 @@ target/
 *.out
 *.log
 *.aux
-*.png
 *.tex
