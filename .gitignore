@@ -89,10 +89,10 @@ target/
 .mypy_cache/
 
 # Latex
-.toc
-.synctex.gz
-.out
-.log
-.aux
-.png
-.tex
+*.toc
+*.synctex.gz
+*.out
+*.log
+*.aux
+*.png
+*.tex
