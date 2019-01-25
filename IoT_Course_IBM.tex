@@ -1,0 +1,237 @@
+\documentclass[11pt, twoside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% packages
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+\usepackage{fullpage}								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+\renewcommand{\baselinestretch}{1.5} 
+\usepackage{url}
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}   % forcing linebreaks in \url
+\usepackage
+[
+        a4paper,% other options: a3paper, a5paper, etc
+        left=2.5cm,
+        right=2.5cm,
+        top=2cm,
+        bottom=3cm,
+        % use vmargin=2cm to make vertical margins equal to 2cm.
+        % us  hmargin=3cm to make horizontal margins equal to 3cm.
+        % use margin=3cm to make all margins  equal to 3cm.
+]
+{geometry}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%package for inserting cod %
+\usepackage{listings}
+\usepackage{color}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+%%
+        %another way to insert code 
+       % \begin{verbatim}
+            %git clone https://jujmdu@git.eu-gb.bluemix.net/jujmdu/jnode.git
+        % \end{verbatim}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\textbf{randome} Some math: $2+2=5$
+%%\usepackage{geometry} [a4paper, total={6in, 8in}]               		% See geometry.pdf to learn the layout options. There are lots.		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{A developer's guide to the Internet of Things \big(IoT\big)- Coursera}
+\author{DJ's notes}
+\date{2019}% Activate to display a given date or no date							
+\begin{document}%preamble
+\maketitle %%title
+\tableofcontents %% Content 
+
+%%Template
+\pagebreak
+\section{Week1}
+\subsection{What is IoT?}
+\begin{itemize}
+\item IoT is a network of interconnected things, objects, devices, and systems that connects and transmit data and exchange data among them.
+\item The data exchanged is collected, analyzed and acted on them. 
+\end {itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{What is the value of IoT?}
+\begin{itemize}
+\item Collecting  data from IoT based devices (such as wearables and smart appliances) enables business to learn more about their operating environment. 
+\item This way, businesses can identify and act on the potential to create new value. 
+\item Value by unlocking your revenue from existing products and services, value by inspiring new working practices and processes, value by changing or creating new business models or strategies.
+\item The potential of Internet of Things lies on the intelligence.
+\end {itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Why is IoT so special ?}
+\begin{itemize}
+\item \textbf{You go where the data is}
+\item \textbf{Provide a service}
+\item \textbf{Discrete industries come together (e.g. wellness + fitness + nutrition}
+%%\item \textbf{Performance-enhancing apparel}
+\item A variety of particles, domains and applications allow collection of data from a vast number of things not hindered by location. 
+\item Those things can be configured in a number of different ways. Some with processor, storage, keyboards, screens, but somehow or another they must communicate with the internet either directly, or via an internet connected device. 
+\item Standard connectivity which can send data to the cloud from anywhere. 
+\item Storage and applications that can analyze this data lead to new insight and revenue opportunities. There are consistently new sources of data for businesses. 
+\item And businesses are creating systems of insight by unlocking data from billions of interconnected devices. IoT takes computing power out of the data center, and onto the cloud. The cloud is critical for devices beyond the reach of the data center. To connect and communicate from anywhere in the world through open standards. Internet of Things gives business access to product usage data they never had before. 
+\item Personalized services designed from usage data creates opportunity for new sources of revenue. 
+\item You have probably notices some of this with advertisement after a Google search or with suggested videos and YouTube. \item Personalize and instant are the new expectations for engagement. But there is so much more data, 90\% of it which is created at the edges of IoT that is never even captured, analyzed, or acted upon. 
+\item And from the data that is captured, 60\% of it loses its value within milliseconds of being generated. This means that most of the data is never turn into insight.
+\item 
+
+\subsection{How does IoT works}
+\begin{itemize}
+\item How does IoT work?  \url{https://www.youtube.com/watch?v=QSIPNhOiMoE&feature=youtu.be}
+\item The Future of IoT at Work.  \url{https://www.youtube.com/watch?v=4jjcznMXF8M&index=4&list=PLBFOHYVTEVoDzBoFYC9PJq-pUT_YkdeOg}
+\end{itemize}
+
+\end {itemize}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \bigskip
+\section{Week 2}
+\subsection{Cloud computing and IBM cloud}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %insert a figure
+     \begin{figure}
+    [!htb]\centering
+    \includegraphics[width=5in]{CloudComputing.png}%name of the image
+    %\caption{Cloud computing}
+  \label{fig:phase}
+  \end{figure}
+     %iend of a figure
+
+%insert a figure
+     \begin{figure}
+    [!htb]\centering
+    \includegraphics[width=5in]{CloudComputing2.png}%name of the image
+    \caption{Cloud computing}
+  \label{fig:phase}
+  \end{figure}
+     %iend of a figure
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\labelenumii}{\alph{enumii}}
+\begin{enumerate}
+\item \textbf{Cloud computing}
+  \begin{enumerate}
+    \item Infrastructure-as-a-Service (IaaS)
+     \item Platform-as-a-Service (PaaS)
+     \item Software-as-a-Service (FaaS)
+     \item Fuction-as-a-Service 
+     \end {enumerate}
+
+
+\item \textbf{IBM cloud}     
+   \begin{enumerate}
+       \item Get IBM cloud Lite account for 6months to get access to Bluemix 
+       \\\url{https://e5.onthehub.com/WebStore/Security/LtiSignIn.ashx}
+       %Promo Code: 35ea38224a44f6d8bebbb7cc56945134 expires June 30th, 2019
+       \item Apply code 
+       \\\url{https://console.bluemix.net/account/billing?accountId=e6269f255a404d6cb1a5849dae2f9510}
+        \item IBM cloud Identity and access management \big(IAM\big)
+        \item Cloud Foundry Orgs, add a region. \url{https://console.bluemix.net/account/organizations?accountId=e6269f255a404d6cb1a5849dae2f9510}
+       \item Catalog \url{https://console.bluemix.net/catalog}
+        \item Go to Node Red \big(different from course video probably due to update) \url{https://console.bluemix.net/catalog/starters/node-red-starter}
+        \item Enable \url{https://console.bluemix.net/apps/23d84272-669c-44a2-91a3-f009a176740e?paneId=overview&env_id=ibm:yp:eu-gb}
+        \item Create Platform  API key \url{https://console.bluemix.net/iam/#/apikeys}      
+        \item Go to Git profile %\url{https://git.eu-gb.bluemix.net/jujmdu}
+        \item Create an access token \big(or ssh key\big) \url{https://git.eu-gb.bluemix.net/profile/personal_access_tokens}
+        %my token {26aYF5YzSZ86emK76J1o}
+        \item By default, the project is created as a private repository.  
+        \begin{lstlisting}
+            // To access the repository on ibm git repository 
+             git clone https://jujmdu@git.eu-gb.bluemix.net/jujmdu/jnode.git
+             // password is the token
+             \end{lstlisting}
+        \item Open the cloned project in Atom, make changes in the editor, add commit messages and commit to the master branch. \big(git\-plus package needed\big)
+              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%insert a figure
+     \begin{figure}
+    [!htb]\centering
+    \includegraphics[width=5in]{IBMcloud.png}%name of the image
+    \caption{IBMcloud}
+  \label{fig:phase}
+  \end{figure}
+     %iend of a figure      
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    \end {enumerate}
+\end {enumerate}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bigskip
+\section{My life skills}
+\subsection{What I am?}
+\renewcommand{\labelenumii}{\alph{enumii}}
+\begin{enumerate}
+\item 
+\item 
+\end {enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{What do I want?}
+\begin{enumerate}
+\item 
+\item 
+\end {enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{What to do?}
+\begin{enumerate}
+\item 
+\item 
+\end {enumerate}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \bigskip
+\section{Job?}
+\subsection{What I am?}
+\renewcommand{\labelenumii}{\alph{enumii}}
+\begin{enumerate}
+\item 
+\item 
+\end {enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{What do I want?}
+\begin{enumerate}
+\item Roche 
+\item 
+\end {enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}
