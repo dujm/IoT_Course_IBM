@@ -1,9 +1,14 @@
-IoT_Course_IBM
+## IoT_Course_IBM
 ==============================
+### Coursera Link
+https://www.coursera.org/learn/developer-iot
 
-https://www.coursera.org/learn/developer-iot/
+### Instructors
+* Brian Innes (Developer Advocate, IBM Digital Business Group)
+* Yianna Papadakis Kantos (Curriculum Specialist, IoT User Education, IBM Watson IoT)
+------------
 
-Project Organization
+### My Project Organization
 ------------
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
