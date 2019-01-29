@@ -94,4 +94,7 @@ target/
 *.out
 *.log
 *.aux
+
+# Information
 *.tex
+*secrete*
